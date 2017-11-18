@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #2F4F4F;
+	background: lightblue;
+	font-size: 2em;
+	margin-left: 0.5em;
+}
+h2 {
+	color: #2F4F4F;
+	background: lightblue;
+	font-size: 1.5em;
+	margin-left: 0.75em;
+}
+.header {
+	margin: 0px;
+	background: lightblue;
+  padding: 1em;
+}
+.topInstructions {
+ margin: 1em;
+}
+.mainImage {
+	flex: 1;
+  	justify-content: space-around;
+ 	  max-width: 300px;
+  	max-height: 300px;
+  	min-width: 50px;
+  	min-height: 50px;
+}
+.word {
+	flex: 1;
+  	justify-content: space-around;
+  	margin: 15px;
+}
+.gameWord {
+  white-space:pre
+}
+.gameinfo {
+	flex: 1;
+  	justify-content: space-around;
+  	margin: 15px;
+
+}
+.gameinfo1 {
+	margin: 15px;
+}
+.movieImage {
+	flex: 1;
+  	justify-content: space-around;
+  	max-width: 300px;
+  	max-height: 300px;
+  	min-width: 50px;
+  	min-height: 50px;
+ }
+ .fromJS {
+  margin-left: 25px;
+  color: blue;
+ }
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  justify-content: space-between;
+  margin: 5px;
+}
+footer {
+  background: black;
+  color: white;
+  min-height: 2em;
+  font-size: 12px;
+  line-height: 2em;
+  text-align: center;
+}
